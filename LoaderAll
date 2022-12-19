@@ -1,11 +1,23 @@
-if game.GameId == 140239261 then --Meepcity
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
+local function ontp(s)
+    if syn and syn.queue_on_teleport then
+        syn.queue_on_teleport(s)
+    elseif queue_on_teleport then
+        queue_on_teleport(s)
+    end
 end
 
-if game.GameId == 383310974 then --Adopt me
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/AdoptMe'))()
+game.ReplicatedStorage:WaitForChild("Constants")
+
+if game.PlaceId == 370731277 then --Meepcity
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
 end
 
-if game.GameId == 107172930 then --Horrific Housing
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/HorrificHouse'))()
+if game.PlaceId == 920587237 then --Adopt me
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/AdoptMe'))()
 end
+
+if game.PlaceId == 263761432 then --Horrific Housing
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/HorrificHouse'))()
+end
+
+ontp("loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/LoaderAll'))()")

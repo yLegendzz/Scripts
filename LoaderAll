@@ -1,12 +1,3 @@
-local function ontp(s)
-    if syn and syn.queue_on_teleport then
-        syn.queue_on_teleport(s)
-    elseif queue_on_teleport then
-        queue_on_teleport(s)
-    end
-end
-
-game.ReplicatedStorage:WaitForChild("Constants")
 
 if game.PlaceId == 370731277 then --Meepcity
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
@@ -19,5 +10,3 @@ end
 if game.PlaceId == 263761432 then --Horrific Housing
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/HorrificHouse'))()
 end
-
-ontp("loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/LoaderAll'))()")

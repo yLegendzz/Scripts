@@ -12,5 +12,5 @@ if game.PlaceId == 263761432 then --Horrific Housing
 end
 
 if game.PlaceID == 210851291 then --Build a Boat
-
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/BuildABoat'))()
 end

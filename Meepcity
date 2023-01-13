@@ -1,4 +1,4 @@
---MeepCity for PC only
+
 
 queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()")
 

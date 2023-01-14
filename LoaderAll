@@ -1,4 +1,4 @@
-if game.GameId == 370731277 then --Meepcity
+if game.GameId == 140239261 then --Meepcity
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
 end
 

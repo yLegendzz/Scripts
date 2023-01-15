@@ -1,18 +1,18 @@
 if game.GameId == 140239261 then --Meepcity
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity"))()
 end
 
 
 if game.GameId == 920587237 then --Adopt me
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/AdoptMe'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/AdoptMe"))()
 end
 
 
 if game.GameId == 263761432 then --Horrific Housing
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/HorrificHouse'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/HorrificHouse"))()
 end
 
 
 if game.GameId == 210851291 then --Build a Boat
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/BuildABoat'))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/BuildABoat"))()
 end

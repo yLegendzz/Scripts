@@ -16,3 +16,7 @@ end
 if game.GameId == 210851291 then --Build a Boat
    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/BuildABoat"))()
 end
+
+if game.GameId == 3954160997 then --Construction
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/ConstructionSimulator"))()
+end

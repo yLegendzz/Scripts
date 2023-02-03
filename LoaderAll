@@ -20,3 +20,7 @@ end
 if game.GameId == 3954160997 then --Construction
    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/ConstructionSimulator"))()
 end
+
+if game.GameId == 2440500124 then --Doors
+   loadstring(game:HttpGet(""))()
+end

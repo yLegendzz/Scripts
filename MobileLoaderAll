@@ -1,0 +1,3 @@
+if game.GameId == 140239261 then --Meepcity Mobile
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/MobileMeepcity"))()
+end

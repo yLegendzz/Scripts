@@ -24,3 +24,7 @@ end
 if game.GameId == 2440500124 then --Doors
    loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/Doors"))()
 end
+
+if game.GameId == 3875092591 then --Control Army
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/yLegendzz/Scripts/main/ControlArmy"))()
+end

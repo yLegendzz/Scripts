@@ -1,3 +1,1 @@
-```lua
-i am Legend.
-```
+

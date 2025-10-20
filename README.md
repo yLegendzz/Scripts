@@ -1,4 +1,4 @@
-# ⚠️ REPOSITÓRIO DESCONTINUADO ⚠️
+# ⚠️ REPOSITÓRIO DESCONTINUADO ⚠️ ![Status](https://img.shields.io/badge/Status-Descontinuado-red)
 
 > **Atenção:** Este repositório não é mais mantido.  
 > Os scripts aqui contidos podem estar **obsoletos, instáveis ou não funcionar mais** com as versões atuais dos jogos.  

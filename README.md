@@ -19,7 +19,7 @@ Este repositório contém uma coleção antiga de **scripts criados para diferen
 - HorrificHouse  
 - MeepCity
 
-- LoaderAll/MobileLoaderAll
+> **LoaderAll/MobileLoaderAll**
  - Script que carrega automaticamente dependendo do jogo conectado.
 
 Cada pasta contém scripts individuais feitos em **Lua** totalmente obfuscado, voltados para **automação, testes e experimentos pessoais**.
